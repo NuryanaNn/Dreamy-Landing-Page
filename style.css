@@ -1,0 +1,42 @@
+.navbar-brand, .nav-link{
+    margin-left: 20px;
+    color: black;
+}
+.tombol{
+    border-radius: 20px;
+}
+.jumbotron{
+    background-image: url(jumbotron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 50px;
+}
+.fav{
+    margin-top: 100px;
+}.member{
+    margin-top: 40px;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer h2{
+    font-weight: bold;
+}
+
+/* Desktop Version */
+@media(min-width:992px){
+    .navbar-brand, .nav-link{
+        margin-left: 20px;
+        color: white!important;
+    }
+    .jumbotron{
+        background-image: url(jumbotron.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-top: -60px;
+        color: white;
+        padding-top: 200px;
+    }
+}
