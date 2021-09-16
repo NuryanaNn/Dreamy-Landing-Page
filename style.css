@@ -6,7 +6,7 @@
     border-radius: 20px;
 }
 .jumbotron{
-    background-image: url(jumbotron.png);
+    background-image: url('img/jumbotron.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -31,7 +31,7 @@
         color: white!important;
     }
     .jumbotron{
-        background-image: url(jumbotron.png);
+        background-image: url('img/jumbotron.png');
         background-size: cover;
         background-repeat: no-repeat;
         height: 600px;
